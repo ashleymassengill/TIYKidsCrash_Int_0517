@@ -1,0 +1,49 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #192024;
+}
+
+header{
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 85px;
+}
+
+.logo{
+  float: left;
+  padding-top: 10px;
+}
+
+.nav{
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-top: 2%;
+}
+
+.nav li{
+  display: inline;
+  font-size: 2rem;
+}
+
+.nav li a{
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  color: #192024;
+  padding: .25% 2%;
+}
+.nav li a:hover{
+  box-sizing: border-box;
+  border: 1px solid #192024;
+  background: #192024;
+  border-radius: 10px;
+  color: #2BD4AF;
+}
+
+.hero{
+  background: url(../images/heroimage.jpg) no-repeat top center;
+  background-size: cover;
+  height: 700px;
+}
